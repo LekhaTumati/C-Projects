@@ -1,0 +1,45 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    char gender;
+    bool married;
+    int sons, employ;
+    long double salary, drawn, balance;
+    float height, gpa;
+    cout << "Enter gender\n";
+    cin >> gender;
+    cout << "Is she married?\n";
+    cin >> married;
+    if(married == true)
+    {
+        married = 1;
+    }
+    else{married = 0;}
+    cout << "Enter the no. of sons\n";
+    cin >> sons;
+    cout << "Year of appointment :\n";
+    cin >> employ;
+    cout << "Salary :\n";
+    cin >> salary;
+    cout << "Height: \n";
+    cin >> height;
+    cout << "gpa: \n";
+    cin >> gpa;
+    cout << "salary drawn upto: \n";
+    cin >> drawn;
+    cout << "Balance till: \n";
+    cin >> balance;
+    cout << "Gender :" << gender << endl;
+    cout << "married :" << married << endl;
+    cout << "Sons:" << sons << endl;
+    cout << "appointment :" << employ << endl;
+    cout << "salary :" << salary << endl;
+    cout << "height :" << height << endl;
+    cout << "gpa :" << gpa << endl;
+    cout << "drawn upto salary :" << drawn << endl;
+    cout << "balance :" << balance << endl;
+    return 0;
+}
