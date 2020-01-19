@@ -1,0 +1,21 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    cout << "Max integer " << INT_MAX << endl;
+    cout << "Min integer " << INT_MIN << endl;
+    cout << "Bit char " << CHAR_BIT << endl;
+    cout << "Max Char " << CHAR_MAX << endl;
+    cout << "Min char " << CHAR_MIN << endl;
+    cout << "Unsigned long max " << ULONG_MAX << endl;
+    cout << "unsigned long long max " << ULONG_LONG_MAX << endl;
+    cout << "signed char max " << SCHAR_MAX << endl;
+    cout << "signed char min " << SCHAR_MIN << endl;
+    cout << "unsigned int max " << UINT_MAX << endl;
+    cout << "short max " << SHRT_MAX << endl;
+    cout << "short min " << SHRT_MIN << endl;
+
+    return 0;
+}
