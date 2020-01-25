@@ -1,0 +1,17 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int a, b;
+    cout << "Max integer " << INT_MAX << endl;
+    cout <<"Min integer" << INT_MIN << endl;
+    cout <<"Value of a = " << INT_MAX << endl;
+    cout <<"Value of b = " << INT_MIN << endl;
+    cout << a - b << endl;
+    cout << a + b << endl;
+    cout << a * b << endl;
+    cout << a / b << endl;
+    return 0;
+}
