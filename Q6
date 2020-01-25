@@ -1,0 +1,15 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int num = 57;
+    cout << "After post increment by 1 the number is: " << num + 1 << endl;
+    cout << "After pre increment by 1 the number is: " << num + 2 << endl;
+    cout << "After increasing by 1 the number is: " << num + 3 << endl;
+    cout << "After post increment by 1 the number is: " << num + 2 << endl;
+    cout << "After post increment by 1 the number is: " << num + 1 << endl;
+    cout << "After pre increment by 1 the number is: " << num << endl;
+    return 0;
+}
