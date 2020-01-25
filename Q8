@@ -1,0 +1,13 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    float r;
+    cout << "Enter the radius" << endl;
+    cin >> r;
+    cout << "The volume of the sphere is:" << r*r*r*4/3*3.14 << endl;
+    return 0;
+}
+
