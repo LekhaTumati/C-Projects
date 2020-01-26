@@ -1,0 +1,12 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int c;
+    cout << "Enter temp. in celsius" << endl;
+    cin >> c;
+    cout << "Temp. in fahrenheit: " << (c*9/5)+32 <<  endl;
+    return 0;
+}
