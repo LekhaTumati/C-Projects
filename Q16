@@ -1,0 +1,14 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int h, b;
+    cout << "Enter the height" << endl;
+    cin >> h;
+    cout << "Enter the base" << endl;
+    cin >> b;
+    cout << "Area of the triangle is: "<< (h*b)/2 << endl;
+    return 0;
+}
