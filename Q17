@@ -1,0 +1,15 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int a, b;
+    cout << "Enter dividend: " << endl;
+    cin >> a;
+    cout << "Enter divisor: " << endl;
+    cin >> b;
+    cout << "The qoutient is: "<< a/b << endl;
+    cout << "The remainder is: "<< a%b << endl;
+    return 0;
+}
