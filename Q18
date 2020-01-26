@@ -1,0 +1,27 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int a;
+    cout << "Input a: " << endl;
+    cin >> a;
+    cout << a;
+    cout << a;
+    cout << a;
+    cout << a << endl;
+    cout << a;
+    cout << a << endl;
+    cout << a;
+    cout << a << endl;
+    cout << a;
+    cout << a << endl;
+    cout << a;
+    cout << a << endl;
+    cout << a;
+    cout << a;
+    cout << a;
+    cout << a << endl;
+    return 0;
+}
