@@ -1,0 +1,20 @@
+#include <iostream>
+#include<cmath>
+
+using namespace std;
+
+int main()
+{
+    int a, b, c;
+    float s;
+    cout << "Enter semi perimeter: " << endl;
+    cin >> s;
+    cout << "Enter a: " << endl;
+    cin >> a;
+    cout << "Enter b: " << endl;
+    cin >> b;
+    cout << "Enter c: " << endl;
+    cin >> c;
+    cout << "Area = " << sqrt(s*(s-a)*(s-b)*(s-c)) <<  endl;
+    return 0;
+}
